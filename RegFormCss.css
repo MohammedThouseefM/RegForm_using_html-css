@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center ;
+    background-image: linear-gradient( 135deg , rgb(103, 167, 252) , rgb(202, 93, 252));
+}
+
+#form{
+    height: auto;
+    width: 480px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.details{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    column-gap: 2%;
+}
+
+.details .inputtag{
+    margin: 8px 0;
+    font-size: 15px;
+    height: 55px;
+    width: 48%;
+    
+    
+}
+.details input {
+    width: 100%;
+    height: 40px;
+    margin-top: 3px;
+    border-radius: 2px;
+    border-color: rgb(160, 160, 160) ;
+    border-left-color:rgb(160, 160, 160) ;
+    border-top-color:rgb(160, 160, 160) ;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    border-color: rgb(169, 92, 241);
+    outline: none;
+}
+
+.reg{
+    margin-bottom: 15px;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 50px;
+    position: relative;
+
+}
+
+.reg h3{
+   color: rgb(98, 98, 250);
+   font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient( 135deg , rgb(83, 83, 255) , rgb(191, 120, 250));
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-image: linear-gradient(135deg, rgb(191, 120, 250), rgb(83, 83, 255));
+
+}
+
+.gen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-items: center;
+    font-size: 15px ;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.gen span{
+    margin: 13px 0;
+    column-gap: 2%;
+}
+

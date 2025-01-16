@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<link rel="stylesheet" href="RegFormcss.css">
+    <body>
+        <form id="form">
+            <div class="container" >
+                <div class="reg">
+                    <h3>Registration</h3>
+                </div>
+                <div class="details">
+                    <div class="inputtag">
+                        <label class="input" for="name">Full Name</label><br>
+                        <input   type="text" id="name"  placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="inputtag">
+                        <label class="input" for="user">UserName</label><br>
+                        <input   type="text" id="user" placeholder="Enter Your User ID">
+                    </div>
+                    <div class="inputtag">
+                        <label class="input" for="email">Email</label><br>
+                        <input   type="email" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="inputtag">
+                        <label class="input" for="phone">Phone Number</label><br>
+                        <input   type="tel" id="phone" placeholder="Enter Your Number">
+                    </div>
+                    <div class="inputtag">
+                        <label class="input" for="pass">Password</label><br>
+                        <input   type="password" id="pass" placeholder="Enter Your Password">
+                    </div>
+                    <div class="inputtag">
+                        <label class="input" for="ConPass">Conform password</label><br>
+                        <input   type="password" id="ConPass" placeholder="Conform Your Password">
+                    </div>
+                </div>
+                <div class="gen"> 
+                    <span>
+                        <label >Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    </span>
+                    <span>
+                        <label for="gender1" > <input type="radio" id="gender1" name="gender" value="male" placeholder="male"> Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    </span>
+                    <span>
+                        <label for="gender2" > <input type="radio" id="gender2" name="gender" value="Female" > Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    </span>
+                    <span>
+                        <label for="gender3" > <input type="radio" id="gender3" name="gender" value="Prefer not to say" > Prefer not to say &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                   </span>
+                </div>
+                <span class="check">
+                    <label for="che"><input type="checkbox" id="che" >&nbsp;&nbsp;I accept this&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                </span>
+                <div >
+                    <button type="submit">Register</button>
+                </div>    
+            </div>
+        </form>
+    </body>
+</html>
